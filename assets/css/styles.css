@@ -1,79 +1,66 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 main {
-    max-width: 700px;
-    min-width: 600px;
-    border: 2px solid rgba(254, 254, 254, 0.6);
+  max-width: 700px;
+  min-width: 600px;
+  border: 2px solid rgba(254, 254, 254, 0.6);
+}
+main header {
+  display: flex;
+  justify-content: center;
+  background: #E6E6E6;
+  padding: 15px 0;
+}
+main h1 {
+  background-color: #C4C4C4;
+  color: #005677;
+  letter-spacing: 0.3em;
+  text-align: center;
+  margin-bottom: 3.8em;
+}
+main section h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+  letter-spacing: 0.4em;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+main section ul {
+  padding-inline-start: 40px;
+}
+main section ul li span {
+  font-weight: bold;
+  font-style: italic;
+}
+main section .d-flex {
+  display: flex;
+}
+main footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+  background-color: #005677;
+  color: #ffffff;
+  padding: 10px 0;
+}
+main footer .img-logo {
+  margin-left: 15px;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    background: #E6E6E6;
-    padding: 15px 0;
-}
-
-ul {
-    padding-inline-start: 40px;
-}
-
-ul li span {
-    font-weight: bold;
-    font-style: italic;
-}
-
-
-h1 {
-    background-color: #C4C4C4;
-    color: #005677;
-    letter-spacing: .3em;
-    text-align: center;
-    margin-bottom: 3.8em;
-}
-
-h2 {
-    background-color: #C4C4C4;
-    color: #005677;
-    letter-spacing: 0.4em;
-    padding-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 18px;
-}
-
-.espacio-blanco {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-    text-align: center;
-    width: 100%;
-    background-color: #005677;
-    color: #ffffff;
-    padding: 10px 0;
-}
-
-.img-logo {
-    margin-left: 15px;
-}
-
-.d-flex {
-    display: flex;
-}
+/*# sourceMappingURL=styles.css.map */
