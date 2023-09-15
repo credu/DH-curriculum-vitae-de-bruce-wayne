@@ -26,12 +26,7 @@ header {
 }
 
 ul {
-    padding: auto;
-}
-
-ul li {
-    margin-left: 3%;
-
+    padding-inline-start: 40px;
 }
 
 ul li span {
@@ -53,16 +48,14 @@ h2 {
     color: #005677;
     letter-spacing: 0.4em;
     padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 18px;
 }
 
 .espacio-blanco {
     width: 50px;
     height: 50px;
     background-color: white;
-}
-
-#datos-personales {
-    margin: 5% auto;
 }
 
 footer {
